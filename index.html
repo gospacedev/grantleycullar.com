@@ -54,13 +54,17 @@
 
         </div>
 
+        <audio id="bgMusic"
+            src="https://github.com/gospacedev/grantleycullar.com/blob/main/assets/fav_song.mp3?raw=true" loop></audio>
+        <button onclick="document.getElementById('bgMusic').play()">▶ Play My Fav Music</button>
+
         <script>
             var typed = new Typed('#header', {
                 strings: ['<header><h2 style="color: #a6e22e; font: bold;">>> Hello!</h2><hr class="break"></header>'],
                 typeSpeed: 40,
             });
             var typed = new Typed('#whoami', {
-                strings: ['<h2 id="whoami" style="margin-top: -2%">>> whoami</h2> <p> Hi!ヽ(・∀・)ﾉ My name is Grantley, and I enjoy programming whatever comes to my mind! I am striving to learn and develop software in areas specifically in machine learning and data science. I also do web development with Django and create CLI apps with Go. Whenever I have time, I like to read my books (desipte buying more than I finish), visiting muesums, and skating on my waveboard! </p> <p>Thank you for visiting my website! (＾▽＾)</p>'],
+                strings: ['<h2 id="whoami" style="margin-top: -2%">>> whoami</h2> <p> Hi!ヽ(・∀・)ﾉ My name is Grantley, and I enjoy programming whatever comes to my mind! I am striving to learn and develop software in areas specifically in machine learning and data science. I also do web development with Django and create CLI apps with Go. Whenever I have time, I like to read my books (desipte buying more than I finish), visiting muesums, and skating on my waveboard! </p> <p>Thank you for visiting my website!(＾▽＾)</p>'],
                 typeSpeed: 5,
             });
 
@@ -79,14 +83,11 @@
 
     <script>
         var typed = new Typed('#end-text', {
-            strings: ['<p style="text-align: center; margin-top: 20px; color: rgb(176, 176, 176);">Made with optimism!(▰U▰)</p>',],
+            strings: ['<p style="text-align: center; margin-top: 15px; color: rgb(176, 176, 176);">Made with optimism!(▰U▰)</p>',],
             typeSpeed: 40,
         });
 
-        document.addEventListener('click', function () {
-            var audio = new Audio('https://github.com/gospacedev/grantleycullar.com/blob/main/assets/fav_song.mp3?raw=true');
-            audio.play();
-        }, { once: true });
+
     </script>
 </body>
 
