@@ -9,8 +9,7 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
     <title>Grantley Cullar</title>
-    <meta name="description"
-        content="ヽ(・∀・)ﾉ">
+    <meta name="description" content="ヽ(・∀・)ﾉ">
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" type="image/png"
         href="https://raw.githubusercontent.com/gospacedev/gospacedev.github.io/main/assets/favicon.png?">
@@ -84,8 +83,10 @@
             typeSpeed: 40,
         });
 
-        var audio = new Audio('https://github.com/gospacedev/grantleycullar.com/blob/main/assets/Bj%C3%B6rn_Andr%C3%A9sen-To_Love_Forest_Of_Sorrow.mp3?raw=true');
-        audio.play();
+        document.addEventListener('click', function () {
+            var audio = new Audio('https://github.com/gospacedev/grantleycullar.com/blob/main/assets/fav_song.mp3?raw=true');
+            audio.play();
+        }, { once: true });
     </script>
 </body>
 
