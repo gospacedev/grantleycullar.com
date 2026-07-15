@@ -18,7 +18,7 @@ h1 {
     color: #a6e22e;
 }
 
-ul {
+ul.web-link {
     list-style-type: none;
 }
 
@@ -51,6 +51,10 @@ h2 {
 
 p {
     text-align: justify;
+    color: #faf9f5;
+}
+
+li {
     color: #faf9f5;
 }
 
